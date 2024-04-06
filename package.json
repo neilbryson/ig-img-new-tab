@@ -1,0 +1,13 @@
+{
+  "name": "ig-img-new-tab",
+  "description": "Open Instagram image in a new tab",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^120.0.3",
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
