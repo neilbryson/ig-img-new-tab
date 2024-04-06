@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Open Instagram image in a new tab",
   "version": "1.0.0",
-  "description": "Adds an option to open an Instaram image in a new tab",
+  "description": "Adds an option to open an Instagram image in a new tab",
   "homepage_url": "https://github.com/neilbryson/ig-image-new-tab",
   "background": {
     "scripts": ["dist/background.js"]
