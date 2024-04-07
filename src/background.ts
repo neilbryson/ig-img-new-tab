@@ -4,6 +4,7 @@ browser.menus.create({
   id: MENU_ITEM_ID,
   title: 'Open IG image in new tab',
   contexts: ['page'],
+  documentUrlPatterns:  ['*://*.instagram.com/*', '*://instagram.com/*']
 });
 
 async function clickedElementListener(info: browser.menus.OnClickData, tab?: browser.tabs.Tab): Promise<void> {
