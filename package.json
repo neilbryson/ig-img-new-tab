@@ -8,6 +8,7 @@
     "typescript": "^5.4.4"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "pack": "zip -r ig-img-new-tab.zip ./dist LICENSE.md manifest.json"
   }
 }
